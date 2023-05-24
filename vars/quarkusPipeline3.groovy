@@ -7,7 +7,7 @@ def call() {
     stages {
         stage('Clonar repositorio') {
             steps {
-                git clone 'https://github.com/quarkusio/quarkus.git'
+                git 'https://github.com/quarkusio/quarkus.git'
             }
         }
     }
