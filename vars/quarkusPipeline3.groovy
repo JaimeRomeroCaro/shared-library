@@ -1,8 +1,6 @@
 def call() {
   pipeline {
-    agent {
-        label "windows"
-    }
+    agent any
     
     stages {
         stage('Clonar repositorio') {
