@@ -5,7 +5,7 @@ def call() {
         stages {
             stage('Descargar código fuente') {
                 steps {
-                    git branch: 'master', url: 'https://github.com/quarkusio/quarkus'
+                    git clone 'https://github.com/quarkusio/quarkus'
                 }
             }
 
