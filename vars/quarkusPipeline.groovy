@@ -19,7 +19,6 @@ def call() {
                 }
             }
 
-            // Agrega etapas adicionales según tus necesidades
 
             stage('Compilar y construir') {
                 steps {
