@@ -23,7 +23,7 @@ def call() {
 
             stage('Compilar y construir') {
                 steps {
-                    // Ejecuta aquí los comandos para compilar y construir tu proyecto Quarkus
+                    bat 'mvn clean install'
                 }
             }
         }
