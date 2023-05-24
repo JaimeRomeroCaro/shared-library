@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Descargar código fuente') {
             steps {
-                git branch: 'main', url: 'https://github.com/quarkusio/quarkus'
+                git branch: 'main', url: 'https://github.com/quarkusio/quarkus.git'
             }
         }
         
