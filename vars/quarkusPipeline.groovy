@@ -9,7 +9,7 @@ def call() {
                 }
             }
 
-            stage('Modificar versión') {
+            stage('Modificar versión en pom.xml') {
                 steps {
                     script {
                         def pomFile = readFile('pom.xml')
