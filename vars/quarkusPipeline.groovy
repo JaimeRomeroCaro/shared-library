@@ -7,7 +7,7 @@ def call() {
                 steps {
                     bat """
                         dir
-                        git clone 'https://github.com/quarkusio/quarkus'
+                        git clone https://github.com/quarkusio/quarkus
                     """
                 }
             }
